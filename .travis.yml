@@ -10,7 +10,3 @@ before_install:
 script:
    - ./gradlew check
 
-after_success:
-
-cache:
-  directories:
