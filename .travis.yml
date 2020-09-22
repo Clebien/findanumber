@@ -1,0 +1,15 @@
+language: java
+
+
+sudo: false
+
+before_install:
+
+
+script:
+   - ./gradlew check
+
+after_success:
+
+cache:
+  directories:
