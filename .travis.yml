@@ -8,4 +8,4 @@ before_install:
 
 
 script:
-   - ./gradlew check
+  - ./gradlew check
